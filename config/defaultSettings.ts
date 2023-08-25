@@ -1,0 +1,44 @@
+import { ProLayoutProps } from '@ant-design/pro-components';
+
+/**
+ * @name
+ */
+const Settings: ProLayoutProps & {
+  pwa?: boolean;
+  logo?: string;
+} = {
+  navTheme: 'light',
+  // 拂晓蓝
+  colorPrimary: '#FA541C',
+  layout: 'side',
+  contentWidth: 'Fluid',
+  // fixedHeader: false,
+  fixSiderbar: true,
+  splitMenus: false,
+  colorWeak: false,
+  title: '管理系统',
+  pwa: false,
+  logo: '/logo3.png',
+  iconfontUrl: '',
+  locale: 'zh-CN',
+
+  // token: {
+  //   // 参见ts声明，demo 见文档，通过token 修改样式
+  //   //https://procomponents.ant.design/components/layout#%E9%80%9A%E8%BF%87-token-%E4%BF%AE%E6%94%B9%E6%A0%B7%E5%BC%8F
+  // },
+};
+
+export default Settings;
+
+// {
+//   "navTheme": "light",
+//   "primaryColor": "#FA541C",
+//   "layout": "side",
+//   "contentWidth": "Fluid",
+//   "fixedHeader": false,
+//   "fixSiderbar": true,
+//   "pwa": false,
+//   "logo": "https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg",
+//   "headerHeight": 48,
+//   "splitMenus": false
+// }
